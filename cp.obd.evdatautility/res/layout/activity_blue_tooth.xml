@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/leafportrait2"
+    android:orientation="vertical"
+    tools:context=".BlueToothActivity" >
+
+    <ImageButton
+        android:id="@+id/CollectButton"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/connecting" />
+
+    <ProgressBar
+        android:id="@+id/ReceivingBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/rpmView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Engine RPM: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/socView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State of Charge: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/voltageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battery Voltage: \nBattery Current: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp" />
+
+</LinearLayout>

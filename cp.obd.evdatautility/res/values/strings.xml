@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EVDataUtility</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cannotDetect">Cannot find any paired Bluetooth Devices.  Please check your Bluetooth Device settings.</string>
+    <string name="cannotConnect">Cannot connect to OBD Bluetooth Device.  Please check your Bluetooth Device settings.</string>
+    <string name="CannotInitialize">Cannot Initialize Bluetooth.  Please check your Bluetooth Device settings.</string>
+    <string name="notEnabled">Bluetooth is not Enabled.  Please enable Bluetooth in your Bluetooth Device settings.</string>
+    <string name="bg">Background image of Nissan Leaf</string>
+
+</resources>
