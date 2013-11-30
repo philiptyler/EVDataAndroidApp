@@ -1,6 +1,8 @@
 obd-ev-data-android-
 ====================
 
+FULL PAPER AT: http://digitalcommons.calpoly.edu/cpesp/85/
+
 Cal Poly San Luis Obispo - 2013
 
 Author: Philip B. Tyler
